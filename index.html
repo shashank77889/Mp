@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🎉 Happy Birthday Dr.Nikhil 🎂</h1>
+            <p>Welcome Sabh! Enjoy this small act pulled off through AI with personal handwritten lyrics and this webpage! hope you like it man 😊</p>
+        </div>
+
+        <div class="player">
+            <img src="images.jpg" class="artwork" alt="Album Art">
+            <div class="debug-time" style="color: red; text-align: center; font-weight: bold;"></div>
+            <div class="info">
+                <h2 class="song-title">Through it all</h2>
+                <p class="artist">Shashank Sebastian</p>
+            </div>
+
+            <div class="lyrics-container">
+                <div class="lyrics">
+                    <!-- Lyrics will be inserted here by JavaScript -->
+                </div>
+            </div>
+
+            <audio id="audio"></audio>
+
+            <div class="controls">
+                <button id="prev">⏮</button>
+                <button id="play">▶</button>
+                <button id="next">⏭</button>
+            </div>
+
+            <input type="range" id="progress" value="0">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
